@@ -6,7 +6,7 @@ form_data = {
     'PSW': 'hhu005'
 }
 
-for i in range(1000):
+for i in range(10):
     response = requests.post(
         url='http://112.26.45.226:8000/login',
         data=form_data
